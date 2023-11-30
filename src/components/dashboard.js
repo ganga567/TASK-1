@@ -4,27 +4,7 @@ import {useNavigate} from 'react-router-dom';
 import {Store} from '../App'
 
 function Dash() {
-    // const [data,setdata] = useState(null)
-    // const [flg,setflg] = useState(false)
-    // const {setlogin} = useContext(Store)
-    // const {setDashname} = useContext(Store)
-
-    // const navigate = useNavigate()
-    // useEffect(()=>{
-    //     axios.get(`http://localhost:3007/users`).then((result)=>{
-    //         setdata(result.data[0])
-    //         setDashname(result.data[0].name)
-    //     }).catch((err)=>console.log(err))
-    // },[])
-    // const lg = (e)=>{
-    //     alert("logout successful ⚠️")
-    //     localStorage.removeItem("token")
-    //     setlogin(false)
-    //     localStorage.removeItem("login")
-    //     localStorage.removeItem("name")
-    //     navigate("/signin")
-    // }
- 
+   
   return (
     <div style={{ width: '50rem',height:'35rem'}} className="shadow-lg  container rounded text-center my-5 mb-2 bg-dark bg-gradient text-white">
         <div className='row'>
