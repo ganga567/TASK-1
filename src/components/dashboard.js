@@ -27,13 +27,10 @@ function Dash() {
  
   return (
     <div style={{ width: '50rem',height:'35rem'}} className="shadow-lg  container rounded text-center my-5 mb-2 bg-dark bg-gradient text-white">
-    <h1>WELCOME TO ADMIN PORTAL</h1>
-    {
-        true?
         <div className='row'>
             <h3>YOUR PROFILE</h3>
             <div className='row'>
-            <div className='col-6 d-flex justify-content-center '>
+            <div className='col-12 d-flex justify-content-center '>
                 <div className="card bg-dark bg-gradient" style={{width:"20rem",height:'20rem'}}>
                     <div className="card-body">
                         <h5 className="card-title"><u>Your profile</u></h5>
@@ -50,8 +47,6 @@ function Dash() {
             </div>
             <button className="btn btn-primary my-3" style={{width:'20rem',margin: 'auto', display: 'block' }} >Logout</button>
         </div>
-        :<h2>⚠️Error💥 Not Getting Data</h2>
-    }
     </div>
   )
 }
