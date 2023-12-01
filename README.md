@@ -27,6 +27,18 @@ To Launch the JSOM Server which is the local Data base in this project
   Home
   http://localhost:3007
 
+ Signinpage Overview :
+The Signin component is a React component designed for user authentication in an Admin Portal.
+It allows users to input their email and password, sends a request to the server for authentication, and redirects to the dashboard upon successful authentication.
+
+singup Overview :
+The Signup component is a React component designed for user registration in an Admin Portal. 
+It allows users to input their name, email, and password, sends a registration request to the server, and redirects to the login page upon successful registration.
+
+Dashboard Overview :
+The Dash component is a React component designed to display the user's profile information in an Admin Portal.
+It includes information such as email, name, phone number, and company. Additionally, it provides a button to log out.
+
 
 
 
